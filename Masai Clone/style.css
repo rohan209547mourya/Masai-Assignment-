@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+*{
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#navi_bar{
+    display: flex;
+    margin-top: 20px;
+}
+#nav_div{
+    display: flex;
+    margin:auto;
+    margin-left: 100px;
+}
+#btn_nav{
+    margin-right:200px;
+}
+#btn_nav button{
+    padding: 15px;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 8px;
+}
+#nav_login:hover{
+    background-color: rgb(230, 196, 196);
+    color: white;
+}
+.nav_elem{
+    padding: 15px;
+}
+.nav_elem :hover{
+    background-color:rgb(230, 196, 196) ;
+    color: white;
+}
+.con_btn{
+    background-color: #ed0331;
+    border-radius: 5px;
+    color:white;
+    border: 1px solid red;
+    padding: 10px 30px 10px 30px;
+}
+.alumio{
+    margin: auto;
+    max-width: 100%;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 296px;
+}
+.nav_
