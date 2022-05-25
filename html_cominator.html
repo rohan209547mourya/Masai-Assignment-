@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML CSS Combinators</title>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+        .container{
+            display: flex;
+            margin: auto;
+            width:90%;
+            margin-bottom: 30px;
+        }
+        .contant{
+            background-color: white;
+            margin-right: 15px;
+            text-align: left;
+        }
+        div img{
+            width: 100%;
+        }
+        img+h2{
+            font-family: 'Koulen', cursive;
+            margin-left: 10px;
+        }
+        h2+div{
+            display: flex;
+            margin-left: 20px;
+        }
+        h2+div:nth-child(1){
+            margin-right: 10px;
+            color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="contant">
+            <img src="https://assetscdn1.paytm.com/images/cinema/Doctor-Strange--In-The-Multiverse-Of-Madness-r-705x750-36f0e140-b752-11ec-a762-319bdb0970f2.jpg" alt="">
+            <h2>UK and US join forces to strike back in cyber-space</h2>
+            <div>
+                <p>|</p>
+                <p>TECHNOLOGY</p>
+            </div>
+        </div>
+        <div class="contant">
+            <img src="https://assetscdn1.paytm.com/images/cinema/bb2--705x750-cbc15240-8a94-11ec-8efd-6d205f33f529.jpg" alt="">
+            <h2>Lady Gaga took personal trauma into Gucci role</h2>
+            <div>
+                <p>|</p>
+                <p>ENTERTAINMENT & ARTS</p>
+            </div>
+        </div>
+        <div class="contant">
+            <img src="https://assetscdn1.paytm.com/images/cinema/Jayeshbhai-Jordaar---705x750-660c01c0-cf7c-11ec-98b3-41c37f260d1c.jpg" alt="">
+            <h2>The mothers using Instagram to offer adive to new mums and dads</h2>
+            <div>
+                <p>|</p>
+                <p>BUSINESS</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="contant">
+            <img src="https://assetscdn1.paytm.com/images/cinema/Jurassic-World--Dominion-705x750-b554ee90-cd51-11ec-8d22-2363945d80ef.jpg" alt="">
+            <h2>i've seen irreversible change but hope too for planet</h2>
+            <div>
+                <p>|</p>
+                <p>SCINECE & ENVIRONMENT</p>
+            </div>
+        </div>
+        <div class="contant">
+            <img src="https://assetscdn1.paytm.com/images/cinema/KGF-705x750-76008750-b6fd-11ec-9639-8322852eadd4.jpg" alt="">
+            <h2>Full force of Coibd hitting germany, warns Merkel</h2>
+            <div>
+                <p>|</p>
+                <p>EUROPE</p>
+            </div>
+        </div>
+        <div class="contant">
+            <img src="https://assetscdn1.paytm.com/images/cinema/RRR-North-705x750-fd78d9c0-693d-11ec-bbcd-5d122dc4018b.jpg" alt="">
+            <h2>Baby elephant dies after losing half its trunk</h2>
+            <div>
+                <p>|</p>
+                <p>ASIA</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

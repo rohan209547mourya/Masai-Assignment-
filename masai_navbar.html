@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masai Navbar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Open Sans', sans-serif;
+        }
+        #nav_bar{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+        }
+        #nav_bar div:nth-child(2){
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        #nav_bar div div p{
+            margin: 20px;
+        }
+        #course{
+            border: none;
+        }
+        #nav_bar div div:nth-child(3){
+            background-color: rgb(242,253,255);
+            border-radius: 10px;
+            padding: 1px;
+        }
+        button{
+            margin-left: 30px;
+            border: 1px solid red;
+            background-color:white ;
+            color: red;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div id="nav_bar">
+        <div>
+            <img src="https://www.masaischool.com/img/navbar/logo.svg" alt="masai school logo">
+        </div>
+        <div>
+            <div>
+                <select name="course" id="course">
+                    <option value="course">COURSE</option>
+                </select>
+            </div>
+            <div>
+                <p>FEES & ISA</p>
+                <p>ABOUT US</p>
+                <p>HIRE FROM US</p>
+                <p>FAQ</p>
+                <p>EVENTS</p>
+            </div>
+            <div>
+                <p>REFER AND EARN</p>
+            </div>
+            <div>
+                <button>Log In</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

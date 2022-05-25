@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masai News</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+        #main1 {
+            background-color: rgb(242, 246, 255);
+        }
+        h2 {
+            font-weight: 600;
+            font-size: 2.12rem;
+            text-align: center;
+        }
+        #child-1 {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            width: 80%;
+            margin: auto;
+        }
+        #child-1>div {
+            border-radius: 30px;
+            background-color: white;
+            width: 25%;
+            box-shadow: 0px 0px 5px gray;
+
+        }
+        #child-1>div>p {
+            margin-left: 15px;
+            margin-right: 10px;
+        }
+        #child-1>div>p:nth-child(2) {
+            color: rgb(124, 163, 238);
+            font-weight: 600;
+            font-size: 1rem;
+        }
+        #child-1>div>p:nth-child(3) {
+            text-align: left;
+            font: bold;
+        }
+        #child-1>div>img {
+            border-radius: 30px;
+            width: 18rem;
+            height: 12rem;
+        }
+        button {
+            display: block;
+            margin: auto;
+            margin-top: 50px;
+            padding: 10px;
+            border: 1px solid red;
+            border-radius: 5px;
+            background-color: white;
+            color: red;
+        }
+        h1 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 800;
+            text-align: center;
+        }
+        #main2 {
+            margin-top: 50px;
+        }
+        #child-2{
+            display: flex;
+            flex-wrap: wrap;
+            width: 90%;
+            margin: auto;
+        }
+        #child-2 div{
+            margin: auto;
+        }
+        #child-1 div p:nth-child(3){
+            font-family: 'Poppins', sans-serif;
+            font-weight: 800;
+        }
+        #child-1 div p:nth-child(4){
+            font-family: 'Open Sans', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main1">
+        <h2>Masai In The News</h2>
+        <div id="child-1">
+            <div>
+                <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/ET_3754cc10ec.png" alt="">
+                <p>21 Dec 2021.</p>
+                <p>Edtech startup Masai School qcquirees data anyalytics firm Prepleaf for $1 million.</p>
+                <p>With their latest acquisition, Masai moves one step closer to becomin...</p>
+            </div>
+            <div>
+                <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/money_Control_c3e25f5ceb.png" alt="">
+                <p>26 Oct 2021.</p>
+                <p>Kunal Shah, Vijay Shekhar Sharma, Amrish Rau among 21 angel investors in Masai School.</p>
+                <p>Masai School is aiming to expand to 20 smaller cities bty March 2022 and...</p>
+            </div>
+            <div>
+                <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/vccircle_6ef779c958.png" alt="">
+                <p>18 Aug 2020.</p>
+                <p>Unitus Ventures leads pre-Series A funding for coding focussed Masai School.</p>
+                <p>Software coding platform Masai School has raised $2.5 million(Rs...</p>
+            </div>
+        </div>
+        <div id="button">
+            <button>SEE MORE ></button>
+        </div>
+    </div>
+    <div id="main2">
+        <h1>Our Investors, Who Belives In Us</h1>
+        <div id="child-2">  
+            <div>
+                <img src="https://www.masaischool.com/img/our-investors/unitus.svg" alt="">
+            </div>
+            <div>
+                <img src="https://www.masaischool.com/img/our-investors/omidyar.svg" alt="">
+            </div>
+            <div>
+                <img src="https://www.masaischool.com/img/our-investors/indiaQuotient.svg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
